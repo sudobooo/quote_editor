@@ -10,7 +10,7 @@
     "sass": "^1.55.0"
   },
   "scripts": {
-    "build": "esbuild ./app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
-    "build:css": "sass ./app/assets/stylesheets/application.sass.scss ./app/assets/builds/application.css --load-path=node_modules"
+    "prebuild": "esbuild ./app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds",
+    "build": "sass ./app/assets/stylesheets/application.sass.scss ./app/assets/builds/application.css --load-path=node_modules"
   }
 }
