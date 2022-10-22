@@ -1,5 +1,5 @@
 //= link_tree ../images
-//= link application.css
+//= link application.sass.scss
 //= link application.js
-//= link_directory ../stylesheets .css
+//= link_directory ../stylesheets
 //= link_tree ../builds

@@ -253,6 +253,7 @@ DEPENDENCIES
   rails (~> 7.0.4)
   rubocop
   sass-rails
+  sassc-rails
   selenium-webdriver
   simple_form (~> 5.1.0)
   sprockets-rails
