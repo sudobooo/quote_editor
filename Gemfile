@@ -37,7 +37,7 @@ gem 'simple_form', '~> 5.1.0'
 gem 'sass-rails'
 
 # Use Redis adapter to run Action Cable in production
-# gem "redis", "~> 4.0"
+gem 'redis'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
